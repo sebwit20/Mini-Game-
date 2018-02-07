@@ -9,6 +9,7 @@ function Bird(){
     this.show = function(){
         fill(color(255, 255, 0));
         ellipse(this.x, this.y, 32, 32);
+
     }
 
     this.update = function(){
